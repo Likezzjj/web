@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index5.css"/>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<div class="left"><img src="img/back.png" alt="" /></div>
+				<div class="center">录趣导师</div>
+			</header>
+			<section>
+				<div>
+					<!--搜索导师姓名-->
+					<div class="main">
+						<div class="main_name">
+							<div class="left"><img src="img/search_img.png"/></div>
+							<input type="text" placeholder="请输入要搜索的导师姓名" />
+						</div>
+					</div>
+					<!--我关注的-->
+					<div class="main_gz main_att">
+						<div class="title">
+							<div class="left">我关注的</div>
+							<div class="right"><img src="img/list_img2.png"/></div>
+						</div>
+						<div class="lists">
+							<div class="list">
+								 <dl>
+								 	<dt><img src="img/peo.png"/></dt>
+								 	<dd>
+								 		<p>朱小刚</p>
+								 		<p>教育专家，高考桥第一专家</p>
+								 	</dd> 
+								 </dl>
+								<div class="right">已关注</div>
+							</div>
+							
+							<div class="list">
+								 <dl>
+								 	<dt><img src="img/peo.png"/></dt>
+								 	<dd>
+								 		<p>朱小刚</p>
+								 		<p>教育专家，高考桥第一专家</p>
+								 	</dd> 
+								 </dl>
+								<div class="right">已关注</div>
+							</div>
+							
+							<div class="list">
+								 <dl>
+								 	<dt><img src="img/peo.png"/></dt>
+								 	<dd>
+								 		<p>朱小刚</p>
+								 		<p>教育专家，高考桥第一专家</p>
+								 	</dd> 
+								 </dl>
+								<div class="right">已关注</div>
+							</div>
+						</div>
+					</div>
+					
+					<!--大学招生办-->
+					<div class="main_gz main_att">
+						<div class="title">
+							<div class="left">大学招生办</div>
+							<div class="right"><img src="img/list_img2.png"/></div>
+						</div>
+					</div>
+					
+					<!--志愿填报-->
+					<div class="main_zy">
+						<div class="main_zy_le">
+							<div class="main_zy_le_bok"></div>
+							<div class="left">志愿填报</div>
+						</div>
+						<div class="title">
+								<div class="left">职业规划专家</div>
+								<div class="right"><img src="img/list_img2.png"/></div>
+						</div>
+						<div class="title">
+								<div class="left">家庭教育专家</div>
+								<div class="right"><img src="img/list_img2.png"/></div>
+						</div>
+						<div class="title">
+								<div class="left">家庭教育专家</div>
+								<div class="right"><img src="img/list_img2.png"/></div>
+						</div>
+					</div>
+					<!--志愿填报-->
+					<div class="main_zy">
+						<div class="main_zy_le">
+							<div class="main_zy_le_bok"></div>
+							<div class="left">志愿填报</div>
+						</div>
+						<div class="title">
+								<div class="left">职业规划专家</div>
+								<div class="right"><img src="img/list_img2.png"/></div>
+						</div>
+						<div class="main_jt">
+					     	<div class="title">
+								<div class="left">家庭教育专家</div>
+								<div class="right"><img src="img/list_img2.png"/></div>
+						    </div>
+						    <div class="list_right">
+								 <dl>
+								 	<dt><img src="img/peo.png"/></dt>
+								 	<dd>
+								 		<p>朱小刚</p>
+								 		<p>教育专家，高考桥第一专家</p>
+								 		<button>明星导师</button>
+								 		<button>签约导师</button>
+								 		<button>资源专家</button>
+								 		<button>认证导师</button>
+								 		<!--<button>认证导师</button>-->
+								 		</dd> 
+								 </dl>
+								<div class="right"> +  关注</div>
+							</div>
+							<p class="pp">我从事高中教育20多年，亲自送过2万多名学生考上大学，本人擅长讲自愿方面的问题。我从事高中教育20多年，亲自送过2万多名学生考上大学，本人擅长讲自愿方面的问题。</p>
+							<div></div>
+						</div>
+							
+						<div class="title">
+								<div class="left">家庭教育专家</div>
+								<div class="right"><img src="img/list_img2.png"/></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer>
+				<dl>
+					<dt><img src="img/f1.png"/></dt>
+					<dd>问答</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/f2.png"/></dt>
+					<dd>小课</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/f3.png"/></dt>
+					<dd>导师</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/f4.png"/></dt>
+					<dd>工具</dd>
+				</dl>
+				<dl>
+					<dt><img src="img/f5.png"/></dt>
+					<dd>我的</dd>
+				</dl>
+			</footer>
+		</div>
+	</body>
+	<script src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript">
+		var main_gz_title=$(".main_gz .title");
+		var main_gz_lists=$(".main_gz .lists");
+		main_gz_lists.css("display","none");
+		 main_gz_title.click(function(){
+		 	if($(this).siblings(".lists").css("display")=="none"){
+		        $(this).siblings(".lists").css('display',"block")
+		        $(this).children(".right").children("img").attr('src',"img/list_img.png");
+		 	}else{
+		 		 $(this).siblings(".lists").css('display',"none")
+		         $(this).children(".right").children("img").attr('src',"img/list_img2.png");
+		 	}
+		 })
+		
+	</script>
+</html>
